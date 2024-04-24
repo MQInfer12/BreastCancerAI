@@ -1,3 +1,4 @@
 /src/datasets/*
 !/src/datasets/README.md
 /Lib
+!/src/datasets/example
