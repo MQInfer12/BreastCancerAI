@@ -1,0 +1,34 @@
+---
+import { Image } from "astro:assets";
+import LandingImg from "../assets/landing.png";
+import Button from "./button.astro";
+---
+
+<section class="w-screen h-screen flex items-end">
+  <div class="h-full flex items-end">
+    <Image class="h-[90%] w-auto object-cover" src={LandingImg} alt="breast-cancer" />
+  </div>
+  <div class="flex-1 bg-white/30 h-full flex flex-col items-center justify-center gap-12 p-40 rounded-bl-3xl rounded-tl-3xl">
+    <div class="flex flex-col items-center w-[600px] gap-3 max-w-full">
+      <h3 class="text-secondary-500/80 text-xl font-medium">Inteligencia artificial</h3>
+      <h2 class="text-primary-500 text-6xl font-bold">Cáncer de mama</h2>
+      <h3 class="text-primary-500/80 text-3xl font-medium">Cuida tu salud</h3>
+      <p class="text-primary-500/70">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet in numquam qui iste aut incidunt ipsum quae eum, nobis possimus rem sit ad impedit aliquam, ipsa tempore odit repellendus dolorem! Accusamus placeat dolorem hic soluta qui voluptates sint id! Mollitia.</p>
+    </div>
+    <div class="w-full flex flex-col items-end gap-4">
+      <div class="flex flex-col items-end">
+        <b class="text-secondary-500 text-xl">When to do?</b>
+        <p class="text-primary-500/70">Every month after your by 3 - 5 days</p>
+      </div>
+      <div class="flex flex-col items-end">
+        <b class="text-secondary-500 text-xl">When to do?</b>
+        <p class="text-primary-500/70">Every month after your by 3 - 5 days</p>
+      </div>
+      <div class="flex flex-col items-end">
+        <b class="text-secondary-500 text-xl">When to do?</b>
+        <p class="text-primary-500/70">Every month after your by 3 - 5 days</p>
+      </div>
+    </div>
+    <Button>Pruébalo</Button>
+  </div>
+</section>
