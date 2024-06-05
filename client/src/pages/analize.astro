@@ -1,0 +1,14 @@
+---
+import Layout from "../components/layout.astro";
+import Sidebar from "../components/sidebar";
+import StepView from "../components/steps/stepView";
+---
+
+<Layout>
+	<section class="w-screen h-screen flex items-end pt-20 pb-5 px-5">
+    <div class="h-full w-full rounded-lg border border-primary-500 grid grid-cols-[auto_1fr] grid-rows-1">
+      <Sidebar client:load />
+      <StepView client:only />
+    </div>
+	</section>
+</Layout>

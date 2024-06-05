@@ -1,0 +1,12 @@
+.sc-eqUAAy {
+  flex-grow: unset !important;
+  font-weight: bold;
+  @apply text-secondary-500/80;
+}
+
+.sc-aXZVg > svg {
+  width: 96px;
+  height: 96px;
+  fill: currentColor !important;
+  @apply text-secondary-500/80;
+}

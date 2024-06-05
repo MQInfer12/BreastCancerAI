@@ -1,4 +1,3 @@
-/src/datasets/*
-!/src/datasets/README.md
-/Lib
-!/src/datasets/example
+__pycache__
+datasets/original
+datasets/idc

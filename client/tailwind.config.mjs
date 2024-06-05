@@ -10,10 +10,17 @@ export default {
       white: "#FFFFFF",
       primary: {
         100: "#ffdfea",
+        400: "#c26585",
         500: "#dd1b5e",
       },
       secondary: {
         500: "#3e2960",
+      },
+    },
+    keyframes: {
+      appear: {
+        "0%": { opacity: "0" },
+        "100%": { opacity: "1" },
       },
     },
   },
