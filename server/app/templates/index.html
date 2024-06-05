@@ -1,1 +1,16 @@
-<h1>Hola mundo</h1>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cáncer de Mama</title>
+  </head>
+  <body>
+    <h1>Analizador de Cáncer de Mama</h1>
+    <form action="/analizar" method="post" enctype="multipart/form-data">
+      <label for="imagen">Subir imagen:</label>
+      <input type="file" name="imagen" id="imagen" />
+      <button type="submit">Analizar</button>
+    </form>
+  </body>
+</html>
